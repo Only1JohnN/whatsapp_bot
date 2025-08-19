@@ -1,4 +1,5 @@
 # Baileys WhatsApp auth
 auth_info/
+node_modules/
 
 bot_store.json

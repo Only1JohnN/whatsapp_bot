@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "main": "bot.js",
   "scripts": {
+    "start": "node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["whatsapp", "bot", "baileys"],
+  "author": "Your Name",
   "license": "ISC",
-  "description": "",
+  "description": "A robust WhatsApp bot using Baileys",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.18",
-    "qrcode-terminal": "^0.12.0"
+    "qrcode-terminal": "^0.12.0",
+    "sharp": "^0.32.0"
   }
 }
