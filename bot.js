@@ -232,7 +232,7 @@ async function startBot() {
      */
     const normalizeJid = (jid) => jid?.split(":")[0] || jid;
 
-        /**
+    /**
      * Execute function only if user is owner
      */
     async function ownerOnly(sender, fn, sock, m) {
@@ -322,7 +322,7 @@ async function startBot() {
         return list.some((x) => x === lc);
     }
 
-        /**
+    /**
      * Extract mentions from message
      */
     function extractMentions(m, argline) {
@@ -634,7 +634,7 @@ ${PREFIX}google, ${PREFIX}wiki, ${PREFIX}ytmp3, ${PREFIX}ytmp4, ${PREFIX}weather
         }, { quoted: m });
     }
 
-        /**
+    /**
      * Kick user from group
      */
     async function groupKick(jid, sender, argline, sock, m) {
@@ -751,7 +751,7 @@ ${PREFIX}google, ${PREFIX}wiki, ${PREFIX}ytmp3, ${PREFIX}ytmp4, ${PREFIX}weather
         await sock.sendMessage(jid, { poll: { name: question, values: options } }, { quoted: m });
     }
 
-        /**
+    /**
      * Set new command prefix
      */
     function setPrefix(newPrefix, sock, m) {
@@ -853,7 +853,7 @@ ${PREFIX}google, ${PREFIX}wiki, ${PREFIX}ytmp3, ${PREFIX}ytmp4, ${PREFIX}weather
         }, { quoted: m });
     }
 
-        /**
+    /**
      * Add new joke
      */
     async function addJoke(sender, argline, sock, m) {

@@ -49,13 +49,16 @@ No external paid APIs required.
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/whatsapp_bot.git
+   git clone https://github.com/Only1JohnN/whatsapp_bot.git
    cd whatsapp_bot
    ```
 
 2. **Install dependencies:**
    ```sh
-   npm install
+   npm install @whiskeysockets/baileys
+   npm install qrcode-terminal
+   npm install sharp
+
    ```
 
 3. **Configure environment variables:**
@@ -103,8 +106,8 @@ Type `.help` in any chat to see all available commands.
 | `.kick @user`          | Remove user from group                      |
 | `.promote @user`       | Make user admin                             |
 | `.demote @user`        | Remove admin privileges                     |
-| `.welcome on|off`      | Toggle welcome messages                     |
-| `.antilink on|off`     | Toggle link protection                      |
+| `.welcome on or off`   | Toggle welcome messages                     |
+| `.antilink on or off`  | Toggle link protection                      |
 | `.mute <minutes>`      | Mute group for specified time               |
 | `.poll "Q" opt1/opt2`  | Create a poll                               |
 
